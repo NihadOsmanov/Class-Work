@@ -1,0 +1,53 @@
+.h1{
+    display: inline;
+    text-align: center;
+  
+    padding-top: 50px;
+    font-size: 50px;
+    position: relative;
+   
+    
+}
+.btn{
+    display: grid;
+    justify-content: center;
+   
+}
+.h1::after{
+  content: '';
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  left: 49%;
+}
+.h1::before{
+    content: '';
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    background-color: chocolate;
+    bottom: 0;
+    left: 45%;
+  }
+  .p{
+      width: 800px;
+      text-align: center;
+      padding-bottom: 40px;
+  }
+  .item{
+      padding-left: 70px;
+      border: 1px solid;
+      border-color: white;
+  }
+  .item img{
+      width: 100%;
+      border-radius:50%;
+      width: 250px;
+      height: 250px;
+      
+  }
+  .h1-img{
+      padding-left: 50px;
+  }
